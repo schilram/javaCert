@@ -1,3 +1,5 @@
 # Jetbrains IntelliJ
+*/.idea/
+/.idea/*
 */.idea/*
 *.iml
