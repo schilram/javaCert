@@ -11,7 +11,7 @@ package ch.zhaw.javacert.uebungen.Woche1.uebung4;
  */
 public class Uebung4 {
 
-    final static int LOOPS = 100;
+    final static int LOOPS = 100000;
 
     public static void main(String [] args) {
 
@@ -24,31 +24,31 @@ public class Uebung4 {
 
         start = System.currentTimeMillis();
         for (int i = 0; i < LOOPS; i ++) {
-            sb.append(sb);
+            sb.append("Hello");
         }
         stop = System.currentTimeMillis();
-        System.out.println("sb.append(sb): " + diff(start, stop));
+        System.out.println("sb.append(sb) -" + LOOPS + " Loops: " + diff(start, stop) + "ms");
 
 
         start = System.currentTimeMillis();
         for (int i = 0; i < LOOPS; i ++) {
-            s = s + s;
+            s = s + "Hello";
         }
         stop = System.currentTimeMillis();
-        System.out.println("s + s: " + diff(start, stop));
+        System.out.println("s + s " + LOOPS + " Loops: " + diff(start, stop) + "ms");
 
 
         start = System.currentTimeMillis();
         for (int i = 0; i < LOOPS; i ++) {
-            s = s.concat(s);
+            s = s.concat("Hello");
         }
         stop = System.currentTimeMillis();
-        System.out.println("s.concat(s): " + diff(start, stop));
+        System.out.println("s.concat(s) -" + LOOPS + " Loops: " + diff(start, stop) + "ms");
 
     }
 
     private static long diff(Long start, Long end) {
-        return (end - start)/100;
+        return (end - start);
     }
 
 
