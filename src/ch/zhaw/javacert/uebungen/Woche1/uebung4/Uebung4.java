@@ -10,20 +10,22 @@ package ch.zhaw.javacert.uebungen.Woche1.uebung4;
  * @author rschilling
  */
 public class Uebung4 {
+// ------------------------------ FIELDS ------------------------------
 
-    final static int LOOPS = 100000;
+    static final int LOOPS = 100000;
 
-    public static void main(String [] args) {
+// --------------------------- main() method ---------------------------
 
+    public static void main(final String [] args) {
         Long start;
         Long stop;
 
-        StringBuilder sb = new StringBuilder("Hello");
+        final StringBuilder sb = new StringBuilder("Hello");
         String s = new String("Hello");
 
 
         start = System.currentTimeMillis();
-        for (int i = 0; i < LOOPS; i ++) {
+        for (int i = 0; i < LOOPS; i++) {
             sb.append("Hello");
         }
         stop = System.currentTimeMillis();
@@ -31,7 +33,7 @@ public class Uebung4 {
 
 
         start = System.currentTimeMillis();
-        for (int i = 0; i < LOOPS; i ++) {
+        for (int i = 0; i < LOOPS; i++) {
             s = s + "Hello";
         }
         stop = System.currentTimeMillis();
@@ -39,17 +41,14 @@ public class Uebung4 {
 
 
         start = System.currentTimeMillis();
-        for (int i = 0; i < LOOPS; i ++) {
+        for (int i = 0; i < LOOPS; i++) {
             s = s.concat("Hello");
         }
         stop = System.currentTimeMillis();
         System.out.println("s.concat(s) -" + LOOPS + " Loops: " + diff(start, stop) + "ms");
-
     }
 
-    private static long diff(Long start, Long end) {
-        return (end - start);
+    private static long diff(final Long start, final Long end) {
+        return end - start;
     }
-
-
 }
