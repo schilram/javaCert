@@ -60,4 +60,8 @@ public class Kunde {
         return (((i + kdNr) * i  + name.length()) * i + nachname.length()) * i;
     }
 
+    @Override
+    public String toString() {
+        return (kdNr + " - " + +" - ")
+    }
 }

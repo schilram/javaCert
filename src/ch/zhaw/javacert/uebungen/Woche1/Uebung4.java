@@ -1,4 +1,4 @@
-package ch.zhaw.javacert.uebungen.Woche1.uebung4;
+package ch.zhaw.javacert.uebungen.Woche1;
 /**
  Schreiben Sie ein kleines Programm bestehend aus einer Klasse, definieren Sie in der Klasse ein Datenfeld vom Typ StringBuilder
  und ein Datenfeld vom Typ String.
