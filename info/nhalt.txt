@@ -1,0 +1,9 @@
+Uebungen:
+---------
+Woche 1:
+Uebung 4: Stringfunktionen: Stringbuilder.append vs string.concat, string + string
+
+Woche 2:
+Uebung 1: Shift Operatoren << (left shift),  >> (signed right shift), >>> (unsigned right shift)
+
+Uebung 2: equals()-Methode, hashCode()-Methode
