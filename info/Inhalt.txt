@@ -5,5 +5,10 @@ Uebung 4: Stringfunktionen: Stringbuilder.append vs string.concat, string + stri
 
 Woche 2:
 Uebung 1: Shift Operatoren << (left shift),  >> (signed right shift), >>> (unsigned right shift)
+          Bitwise Operatoren & (logische "AND"-Funktion), ^ (logische "XOR"-Funktion), | (logische "OR"-Funktion)
 
 Uebung 2: equals()-Methode, hashCode()-Methode
+
+Uebung 3: zweidimensionales Array
+
+Uebung 4: ArrayList: arraycopy(), Manipulationen (sort, shuffle, reverse, rotate, wap, replaceAll, fill, copy, binarySearch, indexOfSubList, lastIndesOfSubList)

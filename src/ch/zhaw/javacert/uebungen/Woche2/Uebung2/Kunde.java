@@ -62,6 +62,6 @@ public class Kunde {
 
     @Override
     public String toString() {
-        return (kdNr + " - " + +" - ")
+        return (kdNr + " - " + name + nachname);
     }
 }
