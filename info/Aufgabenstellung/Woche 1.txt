@@ -1,0 +1,22 @@
+Woche 1:
+--------
+
+Aufgabe 1:
+Schreiben Sie ein kleines Programm bestehend aus einer Klasse, definieren Sie in der Klasse einige Datenfelder und eine main-Methode.
+Überprüfen Sie an den Datenfeldern die Namensregeln für Identifier. Überprüfen Sie die möglichen Modifier für die Klasse und für die Datenfelder.
+Überprüfen Sie die Regeln, die für die main-Methode gelten.
+
+Aufgabe2:
+Schreiben Sie ein kleines Programm bestehend aus einer Klasse, definieren Sie in der Klasse einen Konstruktor,
+Instanz- und Klassen-Variablen, einen Initialisierungsblock sowie einen statischen Initialisierungsblock.
+Überprüfen Sie in Ihrer Anwendung die Reihenfolge der Initialisierungen.
+
+Aufgabe3:
+Schreiben Sie ein kleines Programm bestehend aus einer Klasse, definieren Sie in der Klasse verschiedene Datenfelder vom Typ der numerischen Wrapper Klassen.
+Überprüfen Sie in Ihrer Anwendung die Funktionsweise der Methoden der numerischen Wrapper Klassen.
+
+Aufgabe 4:
+Schreiben Sie ein kleines Programm bestehend aus einer Klasse, definieren Sie in der Klasse ein Datenfeld vom
+Typ StringBuilder und ein Datenfeld vom Typ String.
+Überprüfen Sie in Ihrer Anwendung die Funktionsweise der Methoden der Klassen StringBuilder und String.
+Führen Sie in einem Loop Konkatenierungs-Operationen aus für StringBuilder und String und vergleichen Sie die Performance der beiden Klassen.
