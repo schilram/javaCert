@@ -1,9 +1,18 @@
 Uebungen:
 ---------
 Woche 1:
+--------
+Uebung 1:
+
+Uebung 2: Konstruktor, Instanz- und Klassenvariablen, Initialisierungsblock, statischer Initialisierungsblock
+
+Uebung 3: numerische Wrapper Klassen
+
 Uebung 4: Stringfunktionen: Stringbuilder.append vs string.concat, string + string
 
+--------
 Woche 2:
+--------
 Uebung 1: Shift Operatoren << (left shift),  >> (signed right shift), >>> (unsigned right shift)
           Bitwise Operatoren & (logische "AND"-Funktion), ^ (logische "XOR"-Funktion), | (logische "OR"-Funktion)
 
