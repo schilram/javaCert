@@ -1,4 +1,0 @@
-Uebungen:
----------
-Woche 1:
-Uebung 4: Stringfunktionen: Stringbuilder.append vs string.concat, string + string
