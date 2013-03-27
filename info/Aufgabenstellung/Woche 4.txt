@@ -1,0 +1,16 @@
+Woche 3 :
+--------
+
+Aufgabe 1:
+Schreiben Sie ein kleines Programm, in dem Sie die verschiedenen Möglichkeiten des Überschreiben und Überladen von Methoden sowie das Verdecken von Datenfeldern überprüfen.
+Zeigen Sie in dem Programm auch, wie Polymorphismus angewendet wird.
+
+Aufgabe 2:
+Schreiben Sie ein kleines Programm, in dem Sie eine Klasse B implementieren,
+diese Klasse soll von einer abstrakten Klasse A abgeleitet sein die wiederum ein Interface mit zwei Methodendeklarationen sowie zwei Konstanten implementiert,
+das Interface wiederum soll zwei weitere Interfaces ableiten, jedes dieser Interfaces definiert eine Methodendeklaration.
+Instanzieren Sie ein Objekt der Klasse B, greifen Sie auf die Konstanten zu und rufen Sie die Methoden auf.
+
+Aufgabe 3:
+Implementieren Sie drei verschiedene Exceptions, die Vererbungsbeziehungen zueinander haben.
+Zeigen Sie in Ihrer Anwendung, dass eine überschriebene Methode nur gerade die Exceptions werfen kann, die die Originalmethode wirft.
