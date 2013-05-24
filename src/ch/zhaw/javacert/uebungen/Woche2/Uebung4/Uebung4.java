@@ -1,7 +1,6 @@
 package ch.zhaw.javacert.uebungen.Woche2.Uebung4;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 /**
@@ -24,6 +23,12 @@ public class Uebung4 {
         /* some ArrayList functions */
         list.addAll(list);
         System.out.println(list.toString());
+
+        Integer i = 3;
+        int ii = 3;
+        list.remove(i.intValue());
+        list.remove(ii);
+
 
         System.out.println(list.contains("Apfel"));
 
